@@ -66,6 +66,7 @@
           "all_day": false,
           "feed": "School and Teacher Calendar",
           "entry_name": "Mr A Johnstone",
+          "dayFlag": "",
           "year_groups": {
             0: "P",
             1: 1,

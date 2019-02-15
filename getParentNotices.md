@@ -65,6 +65,7 @@
           "url_link": "http://www.google.com/",
           "all_day": false,
           "feed": "School and Parent Calendar",
+          "dayFlag": "",
           "entry_name": "Mr A Johnstone",
           "year_groups": {
             0: "P",

@@ -65,6 +65,7 @@
           "url_link": "http://www.google.com/",
           "all_day": false,
           "feed": "School and Student Calendar",
+          "dayFlag": "",
           "year_groups": {
             0: "P",
             1: 1,
