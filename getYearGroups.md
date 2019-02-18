@@ -119,10 +119,10 @@
     }
     ```
     
-    Bool `[field_name]` not a valid date
+    Bool `[field_name]` not a valid boolean
     ```javascript
     __invalid: {
-      [field_name]: "Value is not a valid bool."
+      [field_name]: "Value is not a valid boolean."
     }
     ```
     
