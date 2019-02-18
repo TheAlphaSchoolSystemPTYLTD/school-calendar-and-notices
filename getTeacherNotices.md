@@ -47,10 +47,6 @@
           "cat_desc": "Academic",
           "campus_code": "ARG",
           "location": "",
-          "attachment": {
-            "file_name": "myBestFile.pdf",
-            "file_size": "1998"
-          },
           "url_text": "Google Link",
           "day_time_desc": "Tue 01 Jan 2019 at 9:00am (End 3:00pm)",
           "summary": "Teacher Daily Notice",
