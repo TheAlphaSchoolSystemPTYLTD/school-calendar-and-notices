@@ -142,13 +142,6 @@
 	}
 	```
 
-	`tchcode` returns 0 record
-	```javascript
-	__invalid: {
-		"tchcode": "[tchcode] has no record during this period."
-	}
-	```
-
 	`start_date` is not in correct date format
 	```javascript
 	__invalid: {
