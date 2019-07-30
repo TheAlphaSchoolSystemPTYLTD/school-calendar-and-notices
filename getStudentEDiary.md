@@ -183,7 +183,7 @@
 			"studcode":"0009130",
 			"start_date":"2018-05-01",
 			"end_date":"2019-05-01",
-			"feedcode":"sch,tt,act,tour,pti,sport,brd,pcare"
+			"feedcode":"per,sch,tt,act,tour,pti,sport,brd,pcare"
 		}
 	```
 
