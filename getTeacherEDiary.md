@@ -124,7 +124,7 @@
 	`[tch_code]` does not have permission to access eDiary
 	```javascript
 	"__status": "invalid",
-	"__msg": "The teacher([tch_code]) has no permission for calendar(eDiary).",
+	"__msg": "The teacher([tch_code]) has no permission for My Calendar(eDiary).",
 	"__invalid": {}
 	```
 
