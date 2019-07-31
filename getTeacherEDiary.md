@@ -121,10 +121,10 @@
  
 * **Error Response:**
 
-	`[stud_code]` does not have permission to access eDiary
+	`[tch_code]` does not have permission to access eDiary
 	```javascript
 	"__status": "invalid",
-	"__msg": "The student([stud_code]) has no permission for calendar(eDiary).",
+	"__msg": "The student([tch_code]) has no permission for calendar(eDiary).",
 	"__invalid": {}
 	```
 
