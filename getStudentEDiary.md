@@ -123,7 +123,7 @@
 	`[stud_code]` does not have permission to access eDiary
 	```javascript
 	"__status": "invalid",
-	"__msg": "The student([stud_code]) has no permission for My Calendar(eDiary).",
+	"__msg": "The student([stud_code]) has no permission for calendar(eDiary).",
 	"__invalid": {}
 	```
 
