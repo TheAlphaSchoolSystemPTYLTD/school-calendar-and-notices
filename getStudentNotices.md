@@ -41,38 +41,53 @@
 * **Success Response:**
 
     ```javascript
-    events: [
       {
-          "cat_num": 11,
-          "cat_desc": "Academic",
-          "campus_code": "ARG",
-          "location": "",
-          "url_text": "Google Link",
-          "day_time_desc": "Tue 01 Jan 2019 at 9:00am (End 3:00pm)",
-          "summary": "Student Daily Notice",
-          "has_attachment": true,
-          "description": "Student daily notice",
-          "single_day": true,
-          "source": "school",
-          "title": "Student daily notice",
-          "start": "2019-01-01 09:00:00",
-          "end": "2019-01-01 15:00:00",
-          "id": 7409,
-          "url_link": "http://www.google.com/",
-          "all_day": false,
-          "feed": "School and Student Calendar",
-          "entry_name": "Mr A Johnstone",
-          "dayFlag": "",
-          "year_groups": {
-            0: "P",
-            1: 1,
-            2: 2,
-            3: 3,
-            4: 4,
-            -1: "PK"
-          }
+        "events": [
+              {
+              "location": "",
+              "cat_num": 12,
+              "url_text": "",
+              "day_time_desc": "Fri 31 Mar 2017 at 12:00am (End 12:00am)",
+              "campus_code": "",
+              "cat_desc": "",
+              "dayFlag": "",
+              "summary": "All Welcome",
+              "has_attachment": false,
+              "description": "All Welcome",
+              "single_day": true,
+              "year_groups": {
+                    "0": "P",
+                    "1": 1,
+                    "2": 2,
+                    "3": 3,
+                    "4": 4,
+                    "5": 5,
+                    "6": 6,
+                    "7": 7,
+                    "8": 8,
+                    "9": 9,
+                    "10": 10,
+                    "11": 11,
+                    "12": 12
+              },
+              "source": "dailynotices",
+              "title": "Family Administration Day",
+              "start": "2017-03-31 00:00:00",
+              "end": "2017-03-31 00:00:00",
+              "id": 7454,
+              "url_link": "",
+              "entry_name": "Mr A O'Johnstone",
+              "feed": "School and Teacher Calendar",
+              "all_day": true
+              }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "timestamp": "{ts '2021-01-25 09:32:41'}",
+            "end_date": "31/12/2017",
+            "start_date": "01/01/2017"
+        }
       }
-  ] 
   ```
  
 * **Error Response:**

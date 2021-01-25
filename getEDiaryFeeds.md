@@ -31,47 +31,28 @@
 * **Success Response:**
 
 	```javascript
-	{
-		"calendar": [
-			{
-				"code": "tt",
-				"desc": "My Timetable"
-			},
-			{
-				"code": "act",
-				"desc": "LMS / Assessment Activities"
-			},
-			{
-				"code": "sport",
-				"desc": "Sports Fixtures"
-			},
-			{
-				"code": "pti",
-				"desc": "Parent Teacher Interviews"
-			},
-			{
-				"code": "brd",
-				"desc": "Boarders Approved Leave"
-			},
-			{
-				"code": "pcare",
-				"desc": "Pastoral Care"
-			},
-			{
-				"code": "sch",
-				"desc": "School and Teacher Calendar"
-			},
-			{
-				"code": "tour",
-				"desc": "School Camps & Excursions"
+		{
+			"calendar": [
+						{
+							"code": "tt",
+							"desc": "My Timetable"
+						},
+						{
+							"code": "act",
+							"desc": "LMS / Assessment Activities"
+						},
+						{
+							"code": "pti",
+							"desc": "Parent Teacher Interviews"
+						}
+			],
+			"__tassversion": "01.053.3.000",
+			"token": {
+					"timestamp": "{ts '2021-01-25 10:09:28'}",
+					"codeonly": false,
+					"type": "T"
 			}
-		],
-		"token": {
-			"timestamp": "{ts '2019-07-19 12:54:56'}",
-			"codeonly": false,
-			"type": "S"
 		}
-	}
 	```
  
 * **Error Response:**
