@@ -52,12 +52,23 @@
   `include_label:false`
 
     ```javascript
-    campuses: [
-        "ARG",
-        "JU",
-        "SE",
-        "THO"
-    ]
+      {
+        "campuses": [
+              {
+                "campus": "JU",
+                "label": "Junior School (Billabong Road)"
+              },
+              {
+                "campus": "SE",
+                "label": "Senior School (Curlew St)"
+              }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "timestamp": "{ts '2021-01-25 09:57:44'}",
+            "include_label": true
+        }
+      }
   ```
  
 * **Error Response:**

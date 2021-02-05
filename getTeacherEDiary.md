@@ -35,88 +35,71 @@
 * **Success Response:**
 
 	```javascript
-	{
-		"calendar": [
-			{
-				"location": "",
-				"attachment": {
-					"deep_link": "",
-					"file_name": ""
-				},
-				"url_text": "",
-				"day_time_desc": "Fri 21 Oct 2016 at 12:00am (End 12:00am)",
-				"campus_code": "",
-				"dayFlag": "",
-				"summary": "a great big event",
-				"has_attachment": false,
-				"description": "a great big event",
-				"single_day": true,
-				"year_groups": {},
-				"source": "school",
-				"title": "Brad's event",
-				"start": "2016-10-21 00:00:00",
-				"end": "2016-10-21 00:00:00",
-				"id": 7340,
-				"url_link": "",
-				"feed": "School and Teacher Calendar",
-				"all_day": true
-			},
-			{
-				"location": "",
-				"attachment": {},
-				"url_text": "",
-				"day_time_desc": "",
-				"summary": "Mr A Johnstone in ",
-				"description": "Lesson 4: English PK.A with Mr A Johnstone",
-				"has_attachment": false,
-				"single_day": true,
-				"source": "timetable",
-				"start": "2019-01-31 11:30:00",
-				"end": "2019-01-31 12:29:00",
-				"title": "English",
-				"id": "timetable_86_0001_4_4_-1|A_class",
-				"url_link": "",
-				"all_day": false,
-				"feed": "My Timetable"
-			},
-			{
-				"location": "",
-				"attachment": {},
-				"deep_link": "{\"target\":\"curricular.activity\",\"empcode\":\"1000016\",\"activity_assign_id\":\"3814\",\"prod_menu\":\"N\"}",
-				"url_text": "Go To This Activity",
-				"day_time_desc": "",
-				"summary": "Ancient History 11 A\nActivity Available From: Mon 18 Apr 2016 at 05:19 PM",
-				"description": "Ancient History 11 A\nActivity Available From: Mon 18 Apr 2016 at 05:19 PM",
-				"has_attachment": false,
-				"single_day": true,
-				"source": "activity",
-				"start": "2016-04-18 17:19:00",
-				"end": "",
-				"title": " Ancient History 11 A - Activity Available",
-				"id": 3814,
-				"url_link": "",
-				"all_day": false,
-				"feed": "LMS / Assessment Activities"
-			},
-			{
-				"location": "Art Room",
-				"attachment": {},
-				"allDay": false,
-				"url_text": "Go To This Student",
-				"end_date": "2018-12-25",
-				"start_date": "2018-12-25",
-				"day_time_desc": "",
-				"summary": "PT Interview\n11 11/12 Accounting",
-				"description": "PT Interview\nAndy Clark\n11 11/12 Accounting",
-				"has_attachment": false,
-				"source": "pti",
-				"title": "11/12 Accounting - Andy Clark",
-				"id": 100162,
-				"url_link": "tiamenu/TIAFrameset3.cfm?menuUrl=tiamenu/TIAStudMenu%2Ecfm%3FstudentCode%3D0009130&menuInfoUrl=students%2FTIAStudGenDetails%2Ecfm%3FstudentCode%3D0009130",
-				"feed": "Parent Teacher Interviews"
+		{
+			"calendar": [
+						{
+							"location": "I Block - Room 7",
+							"attachment": {
+										"deep_link": "",
+										"file_name": ""
+							},
+							"url_text": "",
+							"day_time_desc": "Thu 21 Mar 2019 at 12:00am (End 12:00am)",
+							"campus_code": "",
+							"dayFlag": "",
+							"summary": "All Welcome",
+							"has_attachment": false,
+							"description": "All Welcome",
+							"single_day": true,
+							"year_groups": {
+											"0": "P"
+							},
+							"source": "school",
+							"title": "Trivia Night",
+							"start": "2019-03-21 00:00:00",
+							"end": "2019-03-21 00:00:00",
+							"id": 7863,
+							"url_link": "",
+							"feed": "School and Teacher Calendar",
+							"all_day": true
+						},
+						{
+							"location": "Art Room",
+							"attachment": {
+										"file_size": 4076,
+										"deep_link": "{\"target\":\"calendar.attachment\",\"feedcode\":\"tsch\",\"event_id\":\"7788\",\"event_type\":\"school\"}",
+										"file_name": "TheerrormessagewordingforinsertaduplicatedIDMrecord.PNG"
+							},
+							"url_text": "http://www.apitesting.com.au",
+							"day_time_desc": "Fri 15 Feb 2019 at 12:00am (End 12:00am)",
+							"campus_code": "SE",
+							"dayFlag": "",
+							"summary": "API testing Event Desc.",
+							"has_attachment": true,
+							"description": "API testing Event Desc.",
+							"single_day": true,
+							"year_groups": {
+											"11": 11
+							},
+							"source": "school",
+							"title": "API testing Event Name",
+							"start": "2019-02-15 00:00:00",
+							"end": "2019-02-15 00:00:00",
+							"id": 7788,
+							"url_link": "http://www.apitesting.com.au",
+							"feed": "School and Teacher Calendar",
+							"all_day": true
+						}
+			],
+			"__tassversion": "01.053.3.000",
+			"token": {
+						"tchcode": "AJ",
+						"feedcode": "per,sch,tt,act,tour,pti",
+						"timestamp": "{ts '2021-01-25 10:15:37'}",
+						"end_date": "2019-05-01",
+						"start_date": "2018-05-01"
 			}
-		]
-	}
+		}
 	```
  
 * **Error Response:**

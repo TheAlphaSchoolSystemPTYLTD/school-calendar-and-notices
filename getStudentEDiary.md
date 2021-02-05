@@ -35,87 +35,45 @@
 * **Success Response:**
 
 	```javascript
-	{
-		"calendar": [
-			{
-				"location": "",
-				"attachment": {
-					"deep_link": "",
-					"file_name": ""
-				},
-				"url_text": "",
-				"day_time_desc": "Wed 16 Jan 2019 at 9:00am (End 3:00pm)",
-				"campus_code": "",
-				"dayFlag": "",
-				"summary": "Rippers Day Holiday",
-				"has_attachment": false,
-				"description": "Rippers Day Holiday",
-				"single_day": true,
-				"year_groups": {
-					"0": "P",
-					"1": 1,
-					"2": 2,
-					"3": 3,
-					"4": 4,
-					"5": 5,
-					"6": 6,
-					"7": 7,
-					"8": 8,
-					"9": 9,
-					"10": 10,
-					"11": 11,
-					"12": 12,
-					"-1": "PK",
-					"-2": "AA"
-				},
-				"source": "school",
-				"title": "Rippers Day",
-				"start": "2019-01-16 09:00:00",
-				"end": "2019-01-16 15:00:00",
-				"id": 7747,
-				"url_link": "",
-				"feed": "School and Teacher Calendar",
-				"all_day": false
-			},
-			{
-				"location": "Library",
-				"attachment": {},
-				"url_text": "",
-				"day_time_desc": "",
-				"summary": "Mr J Sheather in Library",
-				"description": "Pastoral Care: ASSEMBLY 11.A with Mr J Sheather",
-				"has_attachment": false,
-				"single_day": true,
-				"source": "timetable",
-				"start": "2019-01-07 08:00:00",
-				"end": "2019-01-07 09:29:00",
-				"title": "ASSEMBLY",
-				"id": "timetable_87_ASSEMBLY_1_1_11|A_class",
-				"url_link": "",
-				"all_day": false,
-				"feed": "My Timetable"
-			},
-			{
-				"location": "",
-				"attachment": {},
-				"deep_link": "{\"target\":\"curricular.activity\",\"studcode\":\"0009130\",\"activity_assign_id\":\"4645\",\"prod_menu\":\"N\"}",
-				"url_text": "Go to this activity.",
-				"day_time_desc": "",
-				"summary": "Modern History 11 A\nActivity Available From: Tue 29 Jan 2019 at 03:17 PM",
-				"description": "Modern History 11 A\nActivity Available From: Tue 29 Jan 2019 at 03:17 PM",
-				"has_attachment": false,
-				"single_day": true,
-				"source": "activity",
-				"start": "2019-01-29 15:17:00",
-				"end": "",
-				"title": "Gus Grissom - the first man to fly in space twice.",
-				"id": "activity-0009130-F099A718-E987-9D21-9C9CE293A07CB16B-4645",
-				"url_link": "",
-				"all_day": false,
-				"feed": "LMS / Assessment Activities"
+		{
+			"calendar": [
+						{
+						"location": "Art Room",
+						"attachment": {
+								"file_size": 4076,
+								"deep_link": "{\"target\":\"calendar.attachment\",\"feedcode\":\"ssch\",\"event_id\":\"7788\",\"event_type\":\"school\"}",
+								"file_name": "TheerrormessagewordingforinsertaduplicatedIDMrecord.PNG"
+						},
+						"url_text": "http://www.apitesting.com.au",
+						"day_time_desc": "Fri 15 Feb 2019 at 12:00am (End 12:00am)",
+						"campus_code": "SE",
+						"dayFlag": "",
+						"summary": "API testing Event Desc.",
+						"has_attachment": true,
+						"description": "API testing Event Desc.",
+						"single_day": true,
+						"year_groups": {
+										"11": 11
+						},
+						"source": "school",
+						"title": "API testing Event Name",
+						"start": "2019-02-15 00:00:00",
+						"end": "2019-02-15 00:00:00",
+						"id": 7788,
+						"url_link": "http://www.apitesting.com.au",
+						"feed": "School and Teacher Calendar",
+						"all_day": true
+						}
+			],
+			"__tassversion": "01.053.3.000",
+			"token": {
+					"feedcode": "per,sch,tt,act,tour,pti,sport,brd,pcare",
+					"timestamp": "{ts '2021-01-25 10:11:13'}",
+					"end_date": "2019-05-01",
+					"start_date": "2018-05-01",
+					"studcode": "0009130"
 			}
-		]
-	}
+		}
 	```
  
 * **Error Response:**

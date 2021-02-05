@@ -41,38 +41,41 @@
 * **Success Response:**
 
     ```javascript
-    events: [
       {
-          "cat_num": 11,
-          "cat_desc": "Academic",
-          "campus_code": "ARG",
-          "location": "",
-          "url_text": "Google Link",
-          "day_time_desc": "Tue 01 Jan 2019 at 9:00am (End 3:00pm)",
-          "summary": "Parent Daily Notice",
-          "has_attachment": true,
-          "description": "Parent daily notice",
-          "single_day": true,
-          "source": "school",
-          "title": "Parent daily notice",
-          "start": "2019-01-01 09:00:00",
-          "end": "2019-01-01 15:00:00",
-          "id": 7409,
-          "url_link": "http://www.google.com/",
-          "all_day": false,
-          "feed": "School and Parent Calendar",
-          "dayFlag": "",
-          "entry_name": "Mr A Johnstone",
-          "year_groups": {
-            0: "P",
-            1: 1,
-            2: 2,
-            3: 3,
-            4: 4,
-            -1: "PK"
-          }
+        "events": [
+            {
+              "location": "",
+              "cat_num": 24,
+              "url_text": "",
+              "day_time_desc": "Wed 02 Aug 2017 at 9:00am (End 9:35am)",
+              "campus_code": "",
+              "cat_desc": "Miscellaneous",
+              "dayFlag": "",
+              "summary": "Today is Wednesday",
+              "has_attachment": false,
+              "description": "Today is Wednesday",
+              "single_day": true,
+              "year_groups": {
+                      "11": 11
+              },
+              "source": "dailynotices",
+              "title": "Today is Wednesday",
+              "start": "2017-08-02 09:00:00",
+              "end": "2017-08-02 09:35:00",
+              "id": 7541,
+              "url_link": "",
+              "entry_name": "Ms C Roth",
+              "feed": "School and Teacher Calendar",
+              "all_day": false
+            }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+              "timestamp": "{ts '2021-01-25 09:36:09'}",
+              "end_date": "31/12/2017",
+              "start_date": "01/01/2017"
+        }
       }
-  ] 
   ```
  
 * **Error Response:**

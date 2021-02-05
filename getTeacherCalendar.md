@@ -41,37 +41,52 @@
 * **Success Response:**
 
     ```javascript
-    events: [
       {
-          "cat_num": 11,
-          "cat_desc": "Academic",
-          "campus_code": "ARG",
-          "location": "",
-          "url_text": "Google Link",
-          "day_time_desc": "Tue 01 Jan 2019 at 9:00am (End 3:00pm)",
-          "summary": "Teacher Calendar Event",
-          "has_attachment": true,
-          "description": "Teacher calendar event",
-          "single_day": true,
-          "source": "school",
-          "title": "Teacher calendar event",
-          "start": "2019-01-01 09:00:00",
-          "end": "2019-01-01 15:00:00",
-          "id": 7408,
-          "url_link": "http://www.google.com/",
-          "all_day": false,
-          "feed": "School and Teacher Calendar",
-          "dayFlag": "",
-          "year_groups": {
-            0: "P",
-            1: 1,
-            2: 2,
-            3: 3,
-            4: 4,
-            -1: "PK"
-          }
+        "events": [
+            {
+              "location": "",
+              "cat_num": 19,
+              "url_text": "",
+              "day_time_desc": "Fri 31 Mar 2017 at 6:30pm (End 7:30pm)",
+              "campus_code": "",
+              "cat_desc": "P & C Association",
+              "dayFlag": "",
+              "summary": "P & F Executive",
+              "has_attachment": false,
+              "description": "P & F Executive",
+              "single_day": true,
+              "year_groups": {
+                      "0": "P",
+                      "1": 1,
+                      "2": 2,
+                      "3": 3,
+                      "4": 4,
+                      "5": 5,
+                      "6": 6,
+                      "7": 7,
+                      "8": 8,
+                      "9": 9,
+                      "10": 10,
+                      "11": 11,
+                      "12": 12
+              },
+              "source": "school",
+              "title": "Parents & Friends Executive Meeting",
+              "start": "2017-03-31 18:30:00",
+              "end": "2017-03-31 19:30:00",
+              "id": 7462,
+              "url_link": "",
+              "feed": "School and Teacher Calendar",
+              "all_day": false
+            }
+        ],
+        "__tassversion": "01.053.3.000",
+        "token": {
+            "timestamp": "{ts '2021-01-25 09:38:12'}",
+            "end_date": "31/12/2017",
+            "start_date": "01/01/2017"
+        }
       }
-  ] 
   ```
  
 * **Error Response:**
@@ -102,6 +117,7 @@
     __invalid: {
       [field_name]: "Value is not a valid bool."
     }
+    ```
     
 * **Sample Parameters:**
 

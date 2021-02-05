@@ -92,22 +92,28 @@
   `include_label:false`
 
     ```javascript
-    year_groups: [
-		-1,
-		0,
-		1,
-		2,
-		3,
-		4,
-		5,
-		6,
-		7,
-		8,
-		9,
-		10,
-		11,
-		12
-	],
+		{
+			"year_groups": [
+						{
+							"label": "BB",
+							"year_group": -3
+						},
+						{
+							"label": "AA",
+							"year_group": -2
+						},
+						{
+							"label": "PK",
+							"year_group": -1
+						},
+						...
+			],
+			"__tassversion": "01.053.3.000",
+			"token": {
+					"timestamp": "{ts '2021-01-25 09:43:04'}",
+					"include_label": true
+			}
+		}
   ```
  
 * **Error Response:**
